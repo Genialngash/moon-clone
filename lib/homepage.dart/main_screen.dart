@@ -369,11 +369,10 @@ class _MainScreenState extends State<MainScreen> {
                                       style: TextStyle(color: Colors.white),
                                     ),
                                     TextFormField(
-                                      
                                       decoration: InputDecoration(
-                                        hoverColor: Colors.white,
-                                        
-                                          fillColor: Colors.white,
+                                          hoverColor: Colors.white30,
+                                          filled: true,
+                                          fillColor: Colors.white38,
                                           border: OutlineInputBorder(
                                               borderSide: BorderSide(color: Colors.white),
                                               borderRadius: BorderRadius.circular(30))),
